@@ -1,7 +1,7 @@
 """
 Snake game using turtle module.
 
-:URL: https://github.com/nknantha/PyScripts/tree/main/Snake%20Game
+:URL: https://github.com/nknantha/PyScripts/blob/main/Snake%20Game/snake_game.py
 :Author: NanthaKumar<https://github.com/nknantha>
 :Date: 2021/09/26
 """
