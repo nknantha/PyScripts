@@ -1,7 +1,7 @@
 """
 Pomodoro Clock in Python with GUI.
 
-:URL: https://github.com/nknantha/PyScripts/tree/main/Pomodoro
+:URL: https://github.com/nknantha/PyScripts/tree/main/Pomodoro/pomodoro.py
 :Author: NanthaKumar<https://github.com/nknantha>
 :Date: 2021/09/25
 """
