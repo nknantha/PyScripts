@@ -4,10 +4,9 @@ Requires internet connection.
 
 :URL: https://github.com/nknantha/PyScripts/tree/main/Quiz%20App/quiz_app.py
 :Author: NanthaKumar<https://github.com/nknantha>
-:Data: 2021/09/25
+:Date: 2021/09/26
 """
 import html
-# import time
 import tkinter as tk
 from tkinter import messagebox
 from tkinter import ttk
