@@ -114,7 +114,7 @@ class ScoreBoard:
 class PongGame:
 
     # Game configurations.
-    SCREEN_WIDTH, SCREEN_HEIGHT = 800, 600
+    SCREEN_WIDTH, SCREEN_HEIGHT = 700, 500
     SCREEN_BGCOLOR = 'black'
     SCREEN_TITLE = 'Pong Game'
 
