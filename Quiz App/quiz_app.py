@@ -7,10 +7,11 @@ Requires internet connection.
 :Data: 2021/09/25
 """
 import html
-import time
+# import time
 import tkinter as tk
 from tkinter import messagebox
 from tkinter import ttk
+from typing_extensions import IntVar
 
 import requests
 
@@ -70,7 +71,7 @@ class QuizBrain:
 
 
 class QuizApp:
-    TITLE = 'nQuizz'
+    TITLE = 'Quizz App'
     BACKGROUND_COLOR = '#375362'
 
     X_PAD = 20
@@ -81,6 +82,8 @@ class QuizApp:
     CANVAS_X_PAD = 0
     CANVAS_Y_PAD = 50
     CANVAS_BACKGROUND = 'white'
+    TRUE_COLOR = '#00e600'
+    FALSE_COLOR = '#ff3333'
 
     QUESTION_FONT = ('Arial', 20, 'italic')
     QUESTION_FONT_COLOR = 'black'
@@ -151,13 +154,17 @@ class QuizApp:
         if self._quiz_brain.check_current_answer(user_ans):
             self._score_value += 1
             self.__update_score()
-            color = 'green'
+            color = self.TRUE_COLOR
         else:
-            color = 'red'
+            color = self.FALSE_COLOR
 
         self._canvas.configure(background=color)
         self._root.update()
-        time.sleep(0.5)
+
+        wait_var = tk.IntVar()
+        self._root.after(500, wait_var.set, 1)
+        self._root.wait_variable(wait_var)
+        
         self._canvas.configure(background=self.CANVAS_BACKGROUND)
         self.__checkout_next_question()
 
