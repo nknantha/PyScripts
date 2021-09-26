@@ -2,7 +2,7 @@
 Quiz App using online Travia database.
 Requires internet connection.
 
-:URL:
+:URL: https://github.com/nknantha/PyScripts/tree/main/Quiz%20App
 :Author: NanthaKumar<https://github.com/nknantha>
 :Data: 2021/09/25
 """
