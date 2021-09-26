@@ -14,7 +14,7 @@ from typing import Union, Tuple
 COLORTUPLE = Union[str, Tuple[int, int, int]]
 
 # GAME Configurations.
-SCREEN_WIDTH, SCREEN_HEIGHT = 1000, 700
+SCREEN_WIDTH, SCREEN_HEIGHT = 700, 500
 SCREEN_BGCOLOR = 'black'
 SCREEN_TITLE = 'Snake Game'
 STEP_SIZE = 20
