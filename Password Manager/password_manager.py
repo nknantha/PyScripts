@@ -1,7 +1,7 @@
 """
 MyPass is a password manager with GUI.
 
-:URL:
+:URL: https://github.com/nknantha/PyScripts/tree/main/Password%20Manager
 :Author: NanthaKumar<https://github.com/nknantha>
 :Date: 2021/09/25
 """
