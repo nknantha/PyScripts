@@ -1,7 +1,7 @@
 """
 Pong game using turtle module.
 
-:URL: https://github.com/nknantha/PyScripts/tree/main/Pong%20Game
+:URL: https://github.com/nknantha/PyScripts/tree/main/Pong%20Game/pong_game.py
 :Author: NanthaKumar<https://github.com/nknantha>
 :Date: 2021/09/26
 """
